@@ -2,21 +2,26 @@
 #include <stdio.h>
 #include <time.h>
 /**
-* main - Prints alphabet
+* main - Prints base 16
 * @void: Empty parameter list for main.
 *
-* Description: Prints the alphabet in reverse order
-* Can only use putchar
+* Description: Prints all hexadecimals
 *
 * Return: 0 for success
 */
 int main(void)
 {
-char letter = 'z';
-while (letter >= 'a')
+int num = 48;
+while (num <= 57)
 {
-putchar(letter);
-letter--;
+putchar(num);
+num++;
+}
+num = 97;
+while (num <= 102)
+{
+putchar(num);
+num++;
 }
 putchar('\n');
 return (0);
