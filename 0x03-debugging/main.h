@@ -1,4 +1,6 @@
-#include <main.h>H
+#ifndef MAIN_H
+#define MAIN_H
+H
 #include <stdio.h>
 
 void positive_or_negative(int i);
