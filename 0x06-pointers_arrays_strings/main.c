@@ -2,16 +2,21 @@
 #include <stdio.h>
 
 /**
-* main - check the code for Alx School students.
-*
-* Return: Always 0.
-*/
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\nhello world! hello-world 0123456hello world\thello world.hello world\n";
-char *p;
-p = cap_string(s);
-printf("%s", p);
-printf("%s", s);
-return (0);
+  char s1[98] = "Hello ";
+  char s2[] = "World!\n";
+  char *ptr;
+
+  printf("%s\n", s1);
+  printf("%s", s2);
+  ptr = _strcat(s1, s2);
+  printf("%s", s1);
+  printf("%s", s2);
+  printf("%s", ptr);
+  return (0);
 }
