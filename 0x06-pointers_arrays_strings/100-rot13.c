@@ -25,7 +25,6 @@ y--;
 }
 return (power);
 }
-
 /**
 * print_number - print an int using only _putchar
 * @number: int to be printed by function
@@ -57,5 +56,5 @@ _putchar(digit + '0');
 counter = counter % exponent(10, size - 1);
 size--;
 }
-_putchar(sign * counter % 10 + '0');
+_putchar(sign *counter % 10 + '0');
 }
